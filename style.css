@@ -1,0 +1,81 @@
+h1{
+    color: rgb(224, 231, 252) ;
+    font-size: 400;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url("vid/Abstract\ -\ 144581.mp4");
+    font-family: sans-serif;
+    background-size: cover;
+}
+p{
+    color: rgb(253, 223, 253);
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bgvid{
+    width: 100vw;
+}
+.tamil{
+    color: red;
+    position: fixed;
+    right: 550px;
+    background-color:  rgb(253, 223, 253);
+    z-index: 10;
+    padding: 10px;
+    border-radius: 12px;
+   
+}
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+}
+.cont{
+    font-family: sans-serif ;
+    color: rgb(153, 171, 253);
+    position: relative;
+}
+.twit{
+    height: 70px;
+    
+}
+.insta{
+    height: 70px;
+    cursor: pointer;
+}
+.mail{
+    color: rgb(215, 235, 253);
+    font-family: sans-serif;
+}
+.insta_text{
+    color:rgb(215, 235, 253);
+    font-family: sans-serif;
+}
+.twit_text{
+    color:rgb(215, 235, 253);
+    font-family: sans-serif;
+}
+.twitpos{
+    position: absolute;
+}
+.instapos{
+    position: absolute ; 
+    left: 100px;
+}
+.mailpos{
+    position: relative ; 
+    left: 200px;
+}
