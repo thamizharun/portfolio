@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kavivanar&display=swap');
+
 h1{
     color: rgb(224, 231, 252) ;
     font-size: 400;
@@ -10,13 +12,13 @@ body{
     height: 100vh;
     width: 100vw;
     background: url("vid/Abstract\ -\ 144581.mp4");
-    font-family: sans-serif;
+    font-family: 'Itim', cursive;
     background-size: cover;
 }
 p{
     color: rgb(253, 223, 253);
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: 'Itim', cursive;
 }
 .bg{
     height: 100vh;
@@ -31,12 +33,17 @@ p{
 }
 .tamil{
     color: red;
+    font-family: 'Kavivanar', cursive;
     position: fixed;
     right: 550px;
     background-color:  rgb(253, 223, 253);
     z-index: 10;
     padding: 10px;
     border-radius: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1.5s;
+    font-size: 28px;
+    
    
 }
 .bgimg{
@@ -58,15 +65,15 @@ p{
 }
 .mail{
     color: rgb(215, 235, 253);
-    font-family: sans-serif;
+    font-family: 'Itim', cursive;
 }
 .insta_text{
     color:rgb(215, 235, 253);
-    font-family: sans-serif;
+    font-family: 'Itim', cursive;
 }
 .twit_text{
     color:rgb(215, 235, 253);
-    font-family: sans-serif;
+    font-family: 'Itim', cursive;
 }
 .twitpos{
     position: absolute;
@@ -79,3 +86,18 @@ p{
     position: relative ; 
     left: 200px;
 }
+.tamil:hover{
+    background-color: red;
+    color:  rgb(253, 223, 253) ;
+    cursor: pointer;
+}
+.name{
+    color: brown;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.name:hover{
+   text-decoration: underline;
+}
+
