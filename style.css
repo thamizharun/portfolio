@@ -29,13 +29,13 @@ p{
     z-index: -1;
 }
 .bgvid{
-    width: 100vw;
+     width: 220vh;
 }
 .tamil{
     color: red;
     font-family: 'Kavivanar', cursive;
     position: fixed;
-    right: 550px;
+    right:50%;
     background-color:  rgb(253, 223, 253);
     z-index: 10;
     padding: 10px;
@@ -54,6 +54,7 @@ p{
     font-family: sans-serif ;
     color: rgb(153, 171, 253);
     position: relative;
+    text-decoration: underline;
 }
 .twit{
     height: 70px;
